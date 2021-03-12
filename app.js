@@ -1,7 +1,7 @@
 const pokemonList = document.querySelector("#pokemonList");
 const defaultPokemon = "https://pokeapi.co/api/v2/pokemon/1/";
 const pokemonCard = document.querySelector("#pokemonCard");
-
+//
 window.addEventListener("load", (e) => {
   getPokemonList().then(() => {
     showPokemonCard(defaultPokemon);

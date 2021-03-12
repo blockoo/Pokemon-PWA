@@ -1,6 +1,7 @@
 const CACHE_DATA = "offline-data";
 const STATIC_RESOURCES = ["index.html", "app.js", "logo.png"];
 //Install the service worker
+//
 self.addEventListener("install", async (e) => {
   console.log("SW install");
   e.waitUntil(
